@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PublicComponent implements OnInit {
 
-  constructor() { }
+  message: string;
+
+  constructor() {
+    this.message = 'Public rocks!!';
+  }
 
   ngOnInit() {
   }
